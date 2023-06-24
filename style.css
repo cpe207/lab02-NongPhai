@@ -1,0 +1,16 @@
+h3 {
+  text-align: center;
+  color: darkslategrey;
+  font-style: oblique;
+}
+.skill-header {
+  text-align: left;
+}
+.skill-container {
+  border: solid darkslategrey;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
