@@ -3,32 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
+
   <body>
-    <h3>My Portfolio</h3>
-    <center>
-      <a href="index.html">Home</a> | <a href="contact.html">Contact</a> |
-      <a href="experience.html">Experience</a>
-    </center>
-    <img
-      src="https://scontent.xx.fbcdn.net/v/t1.15752-9/355547030_235923282556778_6992831941633827250_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE2OxZOXPjefx7eEJlpvcyDLjRsIFDY9-QuNGwgUNj35LtVdqNYyOeY-VkZwAeSIEZWjJpVPwExaJHCgmc7GCO0&_nc_ohc=3_FbJQSHGScAX_i0ZTe&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ0Pjxd_Rb03lsXnA97-F7YyXcjelLra1t4VE8X0qow5A&oe=64BE3A7F"
-      width="250px"
-      style="margin-left: auto; margin-right: auto; display: block"
-    />
-    <p style="text-align: center">
-      นายนรภัทร จินดาสุ่น 650610774 <br />
-      มหาวิทยาลัยเชียงใหม่ <br />
-      คณะวิศวะกรรมศาสตร์ สาขาคอมพิวเตอร์
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NongPhai</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="experience.html">Experience</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <p class="text-center fs-1">Experience</p>
+    <div class="mx-auto px-3" style="max-width: 700px">
+      <div>
+        <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+          <div class="my-rounded-left">
+            <img
+              src="https://avatars.githubusercontent.com/u/99064139?s=48&v=4"
+              width="150px"
+              height="150px"
+              style="object-fit: cover"
+              class="my-rounded-left d-none d-sm-block"
+            />
+          </div>
+          <div class="p-4">
+            <p class="fw-semibold fs-5">C++ Project</p>
+            <span class="text-muted">
+              A project in the 1st year. Do about restaurant reservation.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center text-muted mb-4">
+      © 2023 NongPhai.com by Norapat Chindasoon
     </p>
-    <h3>My experince</h3>
-    <div class="skill-container">
-      <p>-ทำโปรเจกต์เกทด้วยscratchและโปรเจกต์ระบบการจองด้วยC++ ตอนปี1</p>
-    </div>
-    <h3>Hobby</h3>
-    <div class="skill-container">
-      <p>-เล่นเกมเป็นหลักและชอบนอนมากๆ</p>
-    </div>
   </body>
 </html>
